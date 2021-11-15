@@ -1,0 +1,23 @@
+{
+  "name": "BoosyBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "etherscan": "node etherscanAlert.js",
+    "start": "node index.js && node bot.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "axios": "^0.24.0",
+    "cron": "^1.8.2",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "fs": "0.0.1-security",
+    "node": "^17.1.0"
+  }
+}
